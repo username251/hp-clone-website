@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-logo img {
+    height: 40px;
+}
+
+.nav-menu .nav-item-dropdown {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
