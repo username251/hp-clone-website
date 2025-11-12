@@ -269,4 +269,66 @@ body {
     height: fit-content;
 }
   
-  
+.container3
+{
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: baseline;
+
+}
+
+.container3  p
+{
+    font-size: 20px;
+}
+
+.container4
+{
+
+    border: 2px solid;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    height: fit-content;
+    max-height: 100%;
+    padding: 20px;
+    padding-inline: 40px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box-one-to-three
+{
+    width: 100%;
+    border: 1px solid;
+    height: 35vh;
+    
+}
+
+.box-four
+{
+    width: 100%;
+    padding: 20px;
+    height: 35vh;
+}
+
+.box-four h3
+{
+    font-weight: 100;
+}
+
+.icon-box
+{
+    padding: 20px;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+}
+
+.box-one-to-three p
+{
+    padding: 20px;
+    font-size: 20px;
+}
