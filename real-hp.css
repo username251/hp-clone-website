@@ -400,21 +400,26 @@ body {
     border: 1px solid;
     height: fit-content;
     max-height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .product-finder
 {
-    border: 1px solid;
+    border-right: 1px solid;
+    height: 40vh;
+    width: 50%;
 }
 
 .finder-search-section
 {
-    line-height: 1.6;
+    line-height: 2.6;
 }
 
 .search-box {
-    position: relative;      /* ini penting agar icon posisinya relatif terhadap box */
-    display: inline-block;   /* biar ukurannya pas dengan input */
+    position: relative;      
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .search-box input
@@ -440,4 +445,38 @@ body {
     font-size: 16px;
     pointer-events: none;  
     opacity: 0.7;
+}
+
+.detect-device-section button
+{
+    padding : 12px 28px;
+    background-color: transparent;
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.dds-link-text
+{
+    margin-left: 30px;
+    color: black;
+}
+
+.detect-device-section
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.pfinder a
+{
+    background-image: url(poly-sign-in.svg);
+    background-repeat: no-repeat;
+    padding: 7px 40px;
+}
+
+.link-text
+{
+    color: #0278ab;
 }
