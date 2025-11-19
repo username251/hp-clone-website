@@ -182,19 +182,16 @@ body {
 /* Login Button */
 .login-button {
     text-decoration: none;
-    color: #333;
+    background-color: black;
+    color: white;
     font-size: 14px;
     font-weight: 500;
     padding: 8px 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
     transition: all 0.3s ease;
 }
 
 .login-button:hover {
-    background-color: #f8f9fa;
-    border-color: #0096D6;
-    color: #0096D6;
+    background-color: gray;
 }
 
 .lower-navbar
@@ -214,7 +211,7 @@ body {
 {
     text-decoration: none;
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     padding: 8px 12px;
     border-radius: 4px;
     gap: 10px;
@@ -227,15 +224,26 @@ body {
     max-width: 1200px;   
     margin: 0 auto;      
     padding: 20px; 
-    line-height: 1.6;
-    font-weight: 400;
+    line-height: 1.8;
     font-family: Forma DJR UI;
+}
+
+.container1 h3
+{
+    font-weight: 400;
+    color: gray;
+}
+
+.container1 h1
+{
+    font-weight: 400;
+    font-size: 40px;
 }
 
 .container2
 {
 
-    margin: 0 auto;
+    margin: 0 auto 40px;
     box-sizing: border-box;
     display: flex;
     height: fit-content;
@@ -319,21 +327,53 @@ body {
     font-size: 20px;
 }
 
-.container3
+/* .container3
 {
     background-color: #ebf9ff;
     padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    align-items: baseline;
-    
+    gap: 23px;
+    align-items: center;
+    position: static;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .container3  p
 {
     font-size: 20px;
+} */
+
+.container3 {
+    background-color: #ebf9ff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ubah dari baseline ke center */
+    gap: 23px;
+    position: static;
+    text-align: center;
+    vertical-align: middle;
+    flex-wrap: wrap; /* Tambahkan untuk responsive */
 }
+
+.container3 p {
+    font-size: 18px;
+    margin: 0; /* Hilangkan margin default */
+    white-space: nowrap; /* Agar text tidak wrap */
+}
+
+.container3 a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    white-space: nowrap; /* Agar text tidak wrap */
+}
+
 
 .container4
 {
@@ -353,6 +393,13 @@ body {
     width: 100%;
     border: 1px solid;
     height: 35vh;
+    text-decoration: none;
+    color: black;
+}
+
+.box-one-to-three:hover
+{
+    background-color: rgb(0, 255, 255, 0.1);
 }
 
 .box-four
@@ -365,6 +412,7 @@ body {
 .box-four h3
 {
     font-weight: 100;
+    font-size: 20px;
 }
 
 .icon-box
@@ -488,6 +536,11 @@ body {
 {
     color: #0278ab;
     list-style: none;
+}
+
+.link-text:hover
+{
+    color: #02476b;
 }
 
 .help-section
