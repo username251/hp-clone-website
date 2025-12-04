@@ -1,0 +1,83 @@
+/* NAVBAR dasar */
+.navbar {
+    background: black;
+    padding: 15px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar li {
+    position: relative; /* penting untuk posisi dropdown */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    padding: 5px 0;
+    display: inline-block;
+    position: relative;
+}
+
+/* Underline seperti HP */
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: 0.25s ease;
+}
+
+.navbar a:hover::after,
+.navbar a.active::after {
+    width: 100%;
+}
+
+
+/* DROPDOWN MENU */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    min-width: 280px;
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+}
+
+.dropdown-menu li {
+
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 12px 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dropdown-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Hover tampilkan dropdown */
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    display: block;
+}
