@@ -652,7 +652,7 @@ body {
 
 .Aprinter
 {
-    background-image: url(../hp-clone/icons/30-p-finder-printer.svg);
+    background-image: url(icons/30-p-finder-printer.svg);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -661,7 +661,7 @@ body {
 
 .Alaptop
 {
-    background-image: url(../hp-clone/icons/laptop.svg);
+    background-image: url(icons/laptop.svg);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -670,7 +670,7 @@ body {
 
 .Adesktop
 {
-    background-image: url(../hp-clone/icons/Desktop.svg);
+    background-image: url(icons/Desktop.svg);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -679,7 +679,7 @@ body {
 
 .Apoly-product
 {
-    background-image: url(../hp-clone/icons/Headset.svg);
+    background-image: url(icons/Headset.svg);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -688,7 +688,7 @@ body {
 
 .Aother
 {
-    background-image: url(../hp-clone/icons/Monitor.svg);
+    background-image: url(icons/Monitor.svg);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
